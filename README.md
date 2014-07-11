@@ -74,7 +74,7 @@ or download the css on github and include in your project.
 .br-inset {  border-right-style: inset; }
 .br-outset { border-right-style: outset; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ba-none-ns {   border-style: none; }
   .ba-hidden-ns { border-style: hidden; }
   .ba-dotted-ns { border-style: dotted; }
@@ -131,7 +131,7 @@ or download the css on github and include in your project.
   .br-outset-ns { border-right-style: outset; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ba-none-m {   border-style: none; }
   .ba-hidden-m { border-style: hidden; }
   .ba-dotted-m { border-style: dotted; }
@@ -184,7 +184,7 @@ or download the css on github and include in your project.
   .br-outset-m { border-right-style: outset; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ba-none-l {   border-style: none; }
   .ba-hidden-l { border-style: hidden; }
   .ba-dotted-l { border-style: dotted; }
