@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-border-style)
 ## File Size
 
 8.8K border-style.css
-7.2K border-style.min.css
+7.2K border-style.min.css 
+895B minified and gzipped
 
 ## The Code
 ```
