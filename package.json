@@ -33,6 +33,6 @@
     "tachyons-cli": "^0.3.2"
   },
   "scripts": {
-    "start": "tachyons src/tachyons-base.css > css/tachyons-base.css && tachyons src/tachyons-base.css --minify > css/tachyons-base.min.css && tachyons src/tachyons-base.css --generate-docs --package=../../package.json > readme.md"
+    "start": "tachyons src/css-border-style.css > css/css-border-style.css && tachyons src/css-border-style.css --minify > css/css-border-style.min.css && tachyons src/css-border-style.css --generate-docs --package=../../package.json > readme.md"
   }
 }
