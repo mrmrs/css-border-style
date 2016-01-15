@@ -1,7 +1,7 @@
 {
   "name": "css-border-style",
   "style": "border-style.css",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "homepage": "http://github.com/mrmrs/css-border-style",
   "description": "Css module of single purpose classes for border style",
   "keywords": [
