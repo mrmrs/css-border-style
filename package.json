@@ -1,38 +1,44 @@
 {
   "name": "css-border-style",
-  "style": "border-style.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-border-style",
-  "description": "Css module of single purpose classes for border style",
+  "version": "2.0.0",
+  "description": "Functional CSS for border-style",
+  "style": "dist/border-style.css",
+  "main": "dist/border-style.css",
+  "exports": {
+    ".": "./dist/border-style.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "border-style"
+    "border-style",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-border-style": {
+  "homepage": "https://github.com/mrmrs/css-border-style",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-border-style.git"
+    "url": "https://github.com/mrmrs/css-border-style.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-border-style/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-border-style/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
