@@ -57,7 +57,7 @@
 .br-inset {  border-right-style: inset; }
 .br-outset { border-right-style: outset; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .ba-none-s {   border-style: none; }
   .ba-hidden-s { border-style: hidden; }
   .ba-dotted-s { border-style: dotted; }
@@ -114,7 +114,7 @@
   .br-outset-s { border-right-style: outset; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .ba-none-m {   border-style: none; }
   .ba-hidden-m { border-style: hidden; }
   .ba-dotted-m { border-style: dotted; }
@@ -167,7 +167,7 @@
   .br-outset-m { border-right-style: outset; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .ba-none-l {   border-style: none; }
   .ba-hidden-l { border-style: hidden; }
   .ba-dotted-l { border-style: dotted; }
